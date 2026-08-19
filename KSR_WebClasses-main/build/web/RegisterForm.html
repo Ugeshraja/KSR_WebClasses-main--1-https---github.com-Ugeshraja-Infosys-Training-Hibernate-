@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="reqandres">
+        Username: <input type="text" name="txtusr"/> <br><br>
+        Password: <input type="password" name="txtpass"/> <br><br>
+        Gender: <input type="radio" name="gender" value="m"/> Male
+        <input type="radio" name="gender" value="f"/> Female <br><br>
+        Technologies:
+        <input type="checkbox" name="tech" value="java"/> Java
+        <input type="checkbox" name="tech" value="spring"/> Spring
+        <input type="checkbox" name="tech" value="hibernate"/> Hibernate
+        <input type="checkbox" name="tech" value="springboot"/> Spring Boot
+        <br><br>
+        Country:
+        <select name="ctry">
+            <option>Select</option>
+            <option>India</option>
+            <option>Russia</option>
+            <option>Italy</option>
+            <option>Sweden</option>
+            <option>Australia</option>
+        </select>
+        <br><br>
+        Date: <input type="date" name="txtdate"/> <br><br>
+        Date Time: <input type="datetime-local" name="datetime"/> <br><br>
+        Month: <input type="month" name="txtmonth"/> <br><br>
+        Number: <input type="number" name="txtnum"/> <br><br>
+        Color: <input type="color" name="txtcolor"/> <br><br>
+        Range: <input type="range" name="txtrange"/> <br><br>
+        Email ID: <input type="email" name="txtemail"/> <br><br>
+        <!-- Choose Profile Picture: <input type="file" name="fileup"/> <br><br> -->
+        
+        <input type="submit" value="Register"/>
+        <input type="reset" value="Cancel"/>
+        </form>
+    </body>
+</html>

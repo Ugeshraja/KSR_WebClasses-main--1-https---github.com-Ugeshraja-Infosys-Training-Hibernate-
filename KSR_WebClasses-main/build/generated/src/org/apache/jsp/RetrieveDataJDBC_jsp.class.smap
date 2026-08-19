@@ -1,0 +1,16 @@
+SMAP
+RetrieveDataJDBC_jsp.java
+JSP
+*S JSP
+*F
++ 0 RetrieveDataJDBC.jsp
+RetrieveDataJDBC.jsp
+*L
+5,25:45
+30,5:71
+34,2:76
+36,5:78,3
+41,3:93
+44,2:97
+45,11:99
+*E
